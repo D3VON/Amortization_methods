@@ -35,7 +35,7 @@ public class Amortization {
 
 	
 	/**
-	 * 
+	 * example 1, give principal,      interest,       period,         get pmt amt.
 	 * 
 	 * */
 	public double calcPmtAmt(double principal, double ratePerMonth, double numPmts)
@@ -56,7 +56,7 @@ public class Amortization {
 	
 	
 	/**
-	 * 
+	 * return principal portion of a monthly payment amount
 	 * 
 	 * */
 	public double principalPortion(double interest,double payment)
@@ -65,7 +65,7 @@ public class Amortization {
 	}
 	
 	/**
-	 * 
+	 * example 4, give payment amount, interest,       period,         get principal.
 	 * 
 	 * */
 	public double calculatePrincipal(double ratePerMonth,double payment,int numPmts)
@@ -104,11 +104,12 @@ public class Amortization {
 */	
 	
 	/**
+	 * example 3, give principal,      payment amount, period,         get interest.
+	 * 
 	 * Given: principal, number of payments (e.g., 360 payments in a 30 year loan), 
 	 * and payment amount (frequently a borrower will know how much they can pay, 
 	 * what a reasonable interest rate is, and how long they want the term to be), 
 	 * Calculate: how much principal can you borrow.   
-	 * 
 	 * 
 	 * I thought this was strange when I discovered it.  Never the less, it's the best
 	 * I could find to handle this problem.  I found it at:

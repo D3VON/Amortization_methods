@@ -20,7 +20,6 @@ public class Amortization {
 	 * */
 	public double interestPerPeriod(double principal,double rate)
 	{
-		
 		return principal*rate/100/12;		
 	}
 
@@ -31,7 +30,6 @@ public class Amortization {
 	 * */
 	public double runningPrincipal(double principal,double principalPortion)
 	{
-		
 		return principal-principalPortion;		
 	}
 
@@ -57,14 +55,12 @@ public class Amortization {
 	}
 	
 	
-	
 	/**
 	 * 
 	 * 
 	 * */
 	public double principalPortion(double interest,double payment)
 	{
-		
 		return payment-interest;		
 	}
 	

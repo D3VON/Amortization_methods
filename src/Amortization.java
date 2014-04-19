@@ -148,6 +148,14 @@ public class Amortization {
 	 */
 	public static void main(String[] args) {
 
+		/*
+		 * Out of sheer sloppiness (I just realized) I've put main into this class, 
+		 * and I'm instantiating itself to call methods upon itself.  That seems bad  to me.
+		 * 
+		 * On the up side, I don't exactly care: these functions are to be used eventually
+		 * in an Android app.
+		 * 
+		 * */
 		Amortization a = new Amortization();
 		
 		double rate = 7.0;
